@@ -5,7 +5,6 @@ import java.util.HashMap;
 public class test4 {
 
 	public static void main(String[] args) {
-//		http://zdimg.lifeweek.com.cn/h5/anniversary/images/ann_banner_1.jpg
 		Double lls= 8.16;
 		Double ll = 8.16;
 		double ss = 13.6;
