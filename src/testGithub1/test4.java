@@ -5,7 +5,7 @@ import java.util.HashMap;
 public class test4 {
 
 	public static void main(String[] args) {
-		System.out.println("第四fetch");
+		Double lls= 8.16;
 		Double ll = 8.16;
 		double ss = 13.6;
 		System.out.println((ll/ss)*100);
