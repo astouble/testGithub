@@ -26,19 +26,19 @@ public class zxcxzz {
 		zongList.add(map1);
 		zongList.add(map2);
 		zongList.add(map3);
-		Collections.sort(zongList,new Comparator<Map>() {
-		    @Override
-		    public int compare(Map o1, Map o2) {
-		     int ret = 0;
-		     try {
-		      //比较两个对象的顺序，如果前者小于、等于或者大于后者，则分别返回-1/0/1
-		      ret = sdf.parse(o2.get("date").toString()).compareTo(sdf.parse(o1.get("date").toString()));
-		     } catch (ParseException e) {
-		      e.printStackTrace();
-		     }
-		     return ret;
-		    }
-		   });
+		Collections.sort(zongList, new Comparator<Map>() {
+			@Override
+			public int compare(Map o1, Map o2) {
+				int ret = 0;
+				try {
+					// 比较两个对象的顺序，如果前者小于、等于或者大于后者，则分别返回-1/0/1
+					ret = sdf.parse(o2.get("date").toString()).compareTo(sdf.parse(o1.get("date").toString()));
+				} catch (ParseException e) {
+					e.printStackTrace();
+				}
+				return ret;
+			}
+		});
 		for(Map<String, Object> mm:zongList) {
 			System.out.println(mm.get("date"));
 		}
