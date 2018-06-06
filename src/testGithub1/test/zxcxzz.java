@@ -1,4 +1,4 @@
-package testGithub1;
+package testGithub1.test;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;

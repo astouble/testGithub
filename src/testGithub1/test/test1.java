@@ -1,4 +1,4 @@
-package testGithub1;
+package testGithub1.test;
 
 public class test1 {
 	public static void main(String[] args) {
