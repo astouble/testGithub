@@ -95,7 +95,7 @@ public class zxcxzz {
 		BufferedReader bre = null;
 		try {
 			String str="";
-		String file = "D:\\微博导出数据文件.txt";
+		String file = "F:\\微博导出数据文件.txt";
 		bre = new BufferedReader(new FileReader(file));//此时获取到的bre就是整个文件的缓存流
 		while ((str = bre.readLine())!= null) // 判断最后一行不存在，为空结束循环
 		{
